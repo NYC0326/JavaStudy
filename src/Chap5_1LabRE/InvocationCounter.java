@@ -1,3 +1,5 @@
+package Chap5_1LabRE;
+
 public class InvocationCounter {
 	private static int numberOfInvocations = 0;
 
@@ -17,12 +19,12 @@ public class InvocationCounter {
 
 	public static void main(String[] args) {
 		InvocationCounter object1 = new InvocationCounter();
-		for (int i = 1; i <= 5; i++)
-		object1.demoMethod();
+		for(int i=0; i<5; i++)
+			object1.demoMethod();
 		object1.outPutCount();
 		
 		InvocationCounter object2 = new InvocationCounter();
-		for (int i = 1; i <= 5; i++) {
+		for (int i = 0; i < 5; i++) {
 			object2.demoMethod();
 			object2.outPutCount();
 		}
