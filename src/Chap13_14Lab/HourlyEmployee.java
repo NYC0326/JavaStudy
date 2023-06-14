@@ -1,4 +1,4 @@
-package Chap7Lab_RE;
+package Chap13_14Lab;
 
 public class HourlyEmployee extends Employee {
 	private double wageRate, hours;
